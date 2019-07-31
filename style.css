@@ -1,0 +1,40 @@
+#mycanvas{
+    border: 5px solid #000000;
+    width: 600px;
+    height: 500px;
+    margin-left: 33%;
+}
+#leftbutton{
+    padding-right: 75px;
+    padding-left:  75px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left:40%;
+    font-size: 20px;
+}
+
+#rightbutton{
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+#startbutton{
+    margin-left: 45%;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#text{
+    margin-left: 50%;
+    font-size: 30px;   
+}
+#myscore{
+    margin-left: 46%;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}

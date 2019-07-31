@@ -11,7 +11,6 @@ const baseY = canvas.height-10;
 var base_speed = 2;
 var moveRight = 0;
 var score = 0;
-document.getElementById("text").innerText = "Use left and right buttons to move the balance. ";
 function startGame(){
     start = false;
     document.getElementById("text").innerText = "";
@@ -59,12 +58,15 @@ function gameOver(){
     start = true;
     document.getElementById("text").innerText = "You Lose!!";
     document.getElementById("myscore").innerText = "Your score is "+score;
+    score = 0;
 }
 
 function draw(){
+    if(start==false){
     ctx.clearRect(0,0,canvas.width,canvas.height);
     drawBall();
     drawBase();
+    }
     
 }
 function moveleft(){
